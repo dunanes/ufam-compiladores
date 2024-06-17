@@ -18,4 +18,4 @@ Para executar, precisa do ANTLR4 instalado. (Usei um ambiente virtual python e i
 python main.py
 ```
 
-O programa vai procurar por um arquivo `entrada.txt` e geral um arquivo `saida.html`.
+O programa vai procurar por um arquivo `entrada.txt` e gerar um arquivo `saida.html`.
