@@ -1,0 +1,18 @@
+TEXTO 50 1 "Qual o seu nome?"
+
+ESCOLHAUMA "Qual o seu genero?"
+("Masculino", "Femenino", "Prefiro não informar")
+
+ESCOLHAVARIAS "Quais redes sociais voce usa?"
+("Facebook", "Instagram", "Twitter/X", "Tumblr", "Reddit")
+
+ESCOLHAUMA "O que voce acha do atual estado das redes sociais?"
+("Podre", "Legal")
+
+TEXTO 40 3 "O que voce faria para melhorar?"
+
+MENU "Selecione seu país de origem:"
+("Brasil", "Argentina", "Portugal", "Outros", "Etiopia")
+
+BOTAO "Musica!" "Le fishe au chocolat 🎻 tururururururu"
+
