@@ -1,0 +1,6 @@
+# Nome do Ambiente Virtual Python
+comp/
+
+# Outras pastas de cache do projeto
+__pycache__/
+.antlr/

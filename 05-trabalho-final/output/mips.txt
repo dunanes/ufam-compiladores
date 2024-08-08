@@ -1,0 +1,35 @@
+.data
+x: .space 4
+y: .space 4
+z: .space 4
+.text
+main:
+addi $t0, $zero,  2
+sw $t0, x($zero)
+addi $t0, $zero,  10
+sw $t0, y($zero)
+addi $t0, $zero,  0
+sw $t0, z($zero)
+start1:
+lw $t0, x($zero)
+lw $t1, y($zero)
+slt $t0, $t0, $t1
+bne $t0, $zero, E1
+j E2
+E1:
+lw $t0, x($zero)
+addi $t1, $zero, 3
+beq $t0, $t1, L1
+j L2
+L1:
+addi $t0, $zero,  500
+sw $t0, z($zero)
+L2:
+lw $t0, x($zero)
+addi $t1, $zero, 1
+add $t0, $t0, $t1
+sw $t0, x($zero)
+j start1
+E2:
+
+SYSCALL 0

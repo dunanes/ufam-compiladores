@@ -1,0 +1,41 @@
+v
+
+Informações extras:
+
+Boa tarde, pessoal. Aviso e informações importantes sobre a atividade de código intermediário ⚠⚠⚠:
+
+. Utilizem o padrão de código intermediário mostrado nos slides
+
+. Irei corrigir da seguinte forma: lá nos slides tem as operações básicas, irei fazer testes utilizando essas operações e ver se vocês estão de acordo com o padrão.
+ 
+. Façam a conversão das operações básicas que estão nos slides que estão dentro da main para o código de três endereços. Operações que não estão lá podem ser ignoradas. A saída mínima esperada é uma main no formato mostrado e com as operações convertidas.
+
+. OBS: quem realizar a conversão de quaisquer funções passadas irá ganhar um bônus de 2 pontos que foi aprovado pelo professor
+
+Exemplo, o mínimo que eu espero é que vocês passem um arquivo apenas com a função main com o código a ser convertido. Algo assim:
+
+int main(){    
+int x,y,z; 
+   y = 2;   
+   z = 3; 
+   x = y + 2 * z 
+   return x; 
+}
+
+A saída seria isso:
+
+main():
+y = 2
+z = 3
+t1 = 2 * z
+t2 = y + t1
+x = t2
+return x
+
+Notem que vocês podem ignorar int x,y,z; porque eles fogem muito e não fazem parte das operações básicas mostradas nos slides.
+
+Este trabalho tem a ver com a representação intermediária baseado no "código de três endereços"  para a linguagem MiniC, e pode (ou não) considerar o analisador semântico feito no trabalho anterior.
+
+O que deve ser feito:
+
+1. (6.0 pontos). Receber via linha de comando um arquivo com "código de entrada", e gerar um outro arquivo com a transformação da entrada no respectivo "código de três endereços".
