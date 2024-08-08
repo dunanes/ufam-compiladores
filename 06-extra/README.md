@@ -2,12 +2,14 @@
 
 Trabalho sobre representação intermediária.
 
-Já está tudo gerado, só precisa rodar. Uns exemplos abaixo:
+Já está tudo gerado, só precisa rodar. Exemplo:
 
 ```bash
 # Esse tem tudo
 python3 main.py exemplos/exemplao.c
 ```
+
+A saída fica em /output/tac.txt
 
 Caso queira gerar do zero, utilizar os passos abaixo.
 
